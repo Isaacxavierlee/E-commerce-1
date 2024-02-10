@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Webpage Design</title>
+  <link href="./style.css" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Outfit:wght@800&family=Poppins:wght@300;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.png" width="125px"></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+       <a href="cart.html"><img src="img/cart.png" width="30px" height="30px"></a>
+        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="small-container">
+     <div class="row row-2">
+       <h2>All Products</h2>
+       <select>
+         <option>Default Shorting</option>
+         <option>Sort By Price</option>
+         <option>Short By Popularity</option>
+         <option>Short By Ratings</option>
+         <option>Sort By Sale</option>
+       </select>
+     </div>
+
+    <div class="row">
+      <div class="col-4">
+        <img src="img/product-1.jpg" >
+        <h4>Red Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/product-2.jpg">
+        <h4>Black Sneakers</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/product-3.jpg">
+        <h4>Grey Trousers</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/product-4.jpg">
+        <h4>Navy Blue Polo T-Shirt</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+
+
+      <div class="col-4">
+        <img src="img/product-5.jpg">
+        <h4>Navy Blue Polo T-Shirt</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/product-6.jpg">
+        <h4>Navy Blue Polo T-Shirt</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/product-7.jpg">
+        <h4>Navy Blue Polo T-Shirt</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/product-8.jpg">
+        <h4>Navy Blue Polo T-Shirt</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/product-9.jpg">
+        <h4>Navy Blue Polo T-Shirt</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/product-10.jpg">
+        <h4>Navy Blue Polo T-Shirt</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/product-11.jpg">
+        <h4>Navy Blue Polo T-Shirt</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/product-12.jpg">
+        <h4>Navy Blue Polo T-Shirt</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+    </div>
+
+
+    <div class="page-btn"</div>
+        <a href="products.html"><span>1</span></a>
+        <a href="products2.html"><span>2</span></a>
+        <a href="products3.html"><span>3</span></a>
+        <a href="products4.html"><span>4</span></a>
+        <a href="products3.html"><span>&#8594;</span></a>
+      </div>
+    </div>
+
+
+
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android and Ios mobile phone.</p>
+          <div class="app-logo">
+            <img src="img/play-store.png">
+            <img src="img/app-store.png">
+          </div>
+        </div>
+
+        <div class="footer-col-2">
+          <img src="img/logo-white.png" alt="">
+          <p>Our purpose is Sustainably, Made for Pleasure and Benefits of Sports Accessible to many</p>
+        </div>
+
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Returns Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+
+        <div class="footer-col-4">
+          <h3>Follow Us @</h3>
+          <ul>
+            <li>Instagram</li>
+            <li>X</li>
+            <li>Facebook</li>
+            <li>LinkedIn</li>
+          </ul>
+        </div>
+
+      </div>
+      <hr>
+      <p class="copyright">Isaac Xavier - RedStore Clone</p>
+    </div>
+  </div>
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
