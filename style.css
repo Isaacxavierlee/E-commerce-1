@@ -129,9 +129,12 @@ p {
 }
 
 .col-4 img {
-  width: 100%;
+  width: 100%; /* Make sure the image fills the container */
+  height: 250px; /* Set a fixed height for all images */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
   display: block; /* Ensure the image doesn't have extra space beneath it */
 }
+
 
 .title {
   text-align: center;
